@@ -46,8 +46,8 @@ Happy Path (Successful Request)
 Fire a valid prompt payload directly at the Kong Gateway (Port 8000) using PowerShell:
 
 ```powershell
-```
 Invoke-RestMethod -Method Post -Uri "http://localhost:8000/ai-agent" -ContentType "application/json" -Body '{"prompt": "Hello AI Agent, check my system health."}'
+```
 Expected Response: A clean JSON output echoing back your validated agent response.
 
 Throttling Path (Rate Limit Exceeded)
