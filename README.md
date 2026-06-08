@@ -56,4 +56,5 @@ Execute the above command rapidly 6 or more times within one minute.
 Expected Behavior: On the 6th attempt, Kong blocks the request at the gateway boundary, completely insulating your Python backend. The terminal will immediately receive:
 
 JSON
+```
 { "message": "API rate limit exceeded" }
