@@ -1,6 +1,6 @@
 # Secure AI Proxy Gateway (Kong + FastAPI)
 
-A standalone, enterprise-grade infrastructure pattern demonstrating how to decouple API traffic management, security, and rate-limiting from core AI Agent applications using **Kong API Gateway** and **FastAPI**.
+A minimal edge-gateway pattern pattern demonstrating how to decouple API traffic management, security, and rate-limiting from core AI Agent applications using **Kong API Gateway** and **FastAPI**.
 
 ## System Architecture
 
